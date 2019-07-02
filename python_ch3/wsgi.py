@@ -8,6 +8,8 @@ https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 """
 
 import os
+import sys
+sys.path.append('/home/django/python_ch3')
 
 from django.core.wsgi import get_wsgi_application
 
